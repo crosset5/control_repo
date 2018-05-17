@@ -1,4 +1,5 @@
 class minecraft {
+
   file {'/opt/minecraft':
     ensure => directory,
   }
@@ -21,5 +22,6 @@ class minecraft {
     ensure => running,
     enable => true,
   }
+  
 }
 
